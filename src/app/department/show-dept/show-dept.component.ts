@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MatTableDataSource} from '@angular/material';
+import { MatTableDataSource } from '@angular/material/table';
 import { Options } from 'selenium-webdriver';
 import { Department } from 'src/app/models/deartment-model';
 import { DepartmentService } from 'src/app/services/department.service';
